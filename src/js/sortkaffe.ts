@@ -1,4 +1,4 @@
-import {kaffe} from "C:/Users/lenovo/Documents/GitHub/kaffe-typescript-L4SS3h/src/js/kaffe";
+import {kaffe} from "./kaffe";
 
 export class sortkaffe extends kaffe {
     public kaffeType() {

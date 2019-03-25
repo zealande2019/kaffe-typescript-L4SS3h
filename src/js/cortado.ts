@@ -1,6 +1,5 @@
-//Indsæt anden sti hvis du er på bærbar!!!
-import {kaffe} from "C:/Users/lenovo/Documents/GitHub/kaffe-typescript-L4SS3h/src/js/kaffe";
-import {imaelk} from "C:/Users/lenovo/Documents/GitHub/kaffe-typescript-L4SS3h/src/js/imaelk";
+import {kaffe} from "./kaffe";
+import {imaelk} from "./imaelk";
 
 export class cortado extends kaffe implements imaelk{
     maelkml() {
