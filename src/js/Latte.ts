@@ -1,16 +1,15 @@
-//Indsæt anden sti hvis du er på bærbar!!!
 import {kaffe} from "C:/Users/lenovo/Documents/GitHub/kaffe-typescript-L4SS3h/src/js/kaffe";
 import {imaelk} from "C:/Users/lenovo/Documents/GitHub/kaffe-typescript-L4SS3h/src/js/imaelk";
 
-export class cortado extends kaffe implements imaelk{
+export class latte extends kaffe implements imaelk {
     maelkml() {
-        return 25;
+        return 125;
     }
     public kaffeType() {
-        return "cortadoOoooOoooO";
+        return "latte";
     }
     public pris() {
-        return 25;
+        return 40;
     }
     public styrke() {
         return "Mild";
